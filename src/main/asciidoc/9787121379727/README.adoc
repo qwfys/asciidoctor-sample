@@ -1,6 +1,6 @@
 版权信息
 
-.Table 版权信息
+.版权信息
 [options="header"]
 |===
 |项目|内容
@@ -11,9 +11,9 @@
 |ISBN|9787121379727
 |===
 
-
-[cols="1,1,2", options="header"]
 .Applications
+[cols="1,1,2", options="header"]
+
 |===
 |Name
 |Category
@@ -31,9 +31,7 @@ performance, portability.
 Empowers developers to easily create real, automated tests.
 |===
 
-
-
-.Table Title
+.杭州西湖
 [cols="2*", options="header"]
 |===
 |Name of Column 1
@@ -45,3 +43,12 @@ Empowers developers to easily create real, automated tests.
 |Cell in column 1, row 2
 |Cell in column 2, row 2
 |===
+
+
+
+CPU:: The brain of the computer.
+Hard drive:: Permanent storage for operating system and/or user files.
+RAM:: Temporarily stores information the CPU uses during operation.
+Keyboard:: Used to enter text or control items on the screen.
+Mouse:: Used to point to and select items on your computer screen.
+Monitor:: Displays information in visual form using text and graphics.
