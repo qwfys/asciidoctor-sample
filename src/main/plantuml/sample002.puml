@@ -1,0 +1,25 @@
+@startuml
+
+title Example Title
+
+class Dummy {
+String data
+void methods()
+}
+class Flight {
+flightNumber : Integer
+departureTime : Date
+}
+
+Dummy <|-- Flight
+
+Alice -> Bob : message 1
+Alice -> Bob : message 2
+newpage
+Alice -> Bob : message 3
+Alice -> Bob : message 4
+
+
+
+
+@enduml

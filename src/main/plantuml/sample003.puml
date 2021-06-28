@@ -1,0 +1,9 @@
+@startuml
+
+title class diagram
+
+class ArrayList implements List
+class ArrayList extends AbstractList
+
+
+@enduml
