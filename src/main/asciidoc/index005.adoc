@@ -7,6 +7,8 @@ Liuwenke <qwfys200@qq.com>
 :icons: font
 :pdf-fontsdir: fonts
 :quick-uri: http://asciidoctor.org/docs/asciidoc-syntax-quick-reference/
+ifndef::imagesdir[:imagesdir: images]
+ifndef::sourcedir[:sourcedir: ../java]
 
 征信修复系统资源服务申请单如下
 
