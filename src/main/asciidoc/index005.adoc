@@ -1,17 +1,17 @@
 = 资源服务器申请单
-Liuwenke <qwfys200@qq.com>
-1.0, June 09, 2021, Asciidoctor 1.5 article template
-:toc:
+lwk <qwfys200@qq.com>
+1.0, June 09, 2021,  Xiaoshan District, Hangzhou
+:toc: right
 :toc-title: Apply resource server for alibaba cloud
 :toclevels: 4
 :icons: font
 :pdf-fontsdir: fonts
 :quick-uri: http://asciidoctor.org/docs/asciidoc-syntax-quick-reference/
-//ifndef::imagesdir[:imagesdir: ./images]
-//ifndef::sourcedir[:sourcedir: ../java]
+ifndef::imagesdir[:imagesdir: ./images]
+ifndef::sourcedir[:sourcedir: ../java]
 
-:imagesdir: ./images
-:sourcedir: ../java
+//:imagesdir: ./images
+//:sourcedir: ../java
 
 征信修复系统资源服务申请单如下
 
