@@ -1,0 +1,48 @@
+
+
+= 红康云诊所系统设计
+
+== 概述
+
+== 项目数据库设计
+
+== 概述
+
+[plantuml, mindmap, png]
+....
+@startmindmap
+* Debian
+** Ubuntu
+*** Linux Mint
+*** Kubuntu
+*** Lubuntu
+*** KDE Neon
+** LMDE
+** SolydXK
+** SteamOS
+** Raspbian with a very long name
+*** <s>Raspmbc</s> => OSMC
+*** <s>Raspyfi</s> => Volumio
+@endmindmap
+....
+
+== 库房
+
+qqqq
+
+[plantuml, diagram-classes, png]
+....
+@startuml
+class BlockProcessor
+class DiagramBlock
+class DitaaBlock
+class PlantUmlBlock
+
+BlockProcessor <|-- DiagramBlock
+DiagramBlock <|-- DitaaBlock
+DiagramBlock <|-- PlantUmlBlock
+@enduml
+...
+
+kkkkkkkkkkkkkkkkkkkkkkk
+

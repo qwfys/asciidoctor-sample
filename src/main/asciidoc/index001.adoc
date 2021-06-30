@@ -1,2 +1,1 @@
-[[primitives-nulls]]
-== Primitive types and null values
+== 概述
