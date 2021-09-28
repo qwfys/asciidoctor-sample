@@ -1,4 +1,4 @@
-[plantuml, diagram-classes, png]
+[plantuml, ./image/010/diagram-classes, png]
 ....
 @startuml
 class BlockProcessor

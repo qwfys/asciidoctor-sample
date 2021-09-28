@@ -60,29 +60,28 @@
                             </attributes>
                         </configuration>
                     </execution>
-
-                    <!--<execution>-->
-                    <!--    <id>output-pdf</id>-->
-                    <!--    <phase>generate-resources</phase>-->
-                    <!--    <goals>-->
-                    <!--        <goal>process-asciidoc</goal>-->
-                    <!--    </goals>-->
-                    <!--    <configuration>-->
-                    <!--        <backend>pdf</backend>-->
-                    <!--        <sourceHighlighter>coderay</sourceHighlighter>-->
-                    <!--        <doctype>book</doctype>-->
-                    <!--        <attributes>-->
-                    <!--            <icons>font</icons>-->
-                    <!--            <pagenums/>-->
-                    <!--            <toc/>-->
-                    <!--            <idprefix/>-->
-                    <!--            <idseparator>-</idseparator>-->
-                    <!--            <pdf-fontsdir>data/fonts</pdf-fontsdir>-->
-                    <!--            <pdf-stylesdir>data/themes</pdf-stylesdir>-->
-                    <!--            <pdf-style>cn</pdf-style>-->
-                    <!--        </attributes>-->
-                    <!--    </configuration>-->
-                    <!--</execution>-->
+                    <execution>
+                        <id>output-pdf</id>
+                        <phase>generate-resources</phase>
+                        <goals>
+                            <goal>process-asciidoc</goal>
+                        </goals>
+                        <configuration>
+                            <backend>pdf</backend>
+                            <sourceHighlighter>coderay</sourceHighlighter>
+                            <doctype>book</doctype>
+                            <attributes>
+                                <icons>font</icons>
+                                <pagenums/>
+                                <toc/>
+                                <idprefix/>
+                                <idseparator>-</idseparator>
+                                <pdf-fontsdir>data/fonts</pdf-fontsdir>
+                                <pdf-stylesdir>data/themes</pdf-stylesdir>
+                                <pdf-style>cn</pdf-style>
+                            </attributes>
+                        </configuration>
+                    </execution>
                 </executions>
                 <dependencies>
                     <!-- Comment this section to use the default jruby artifact provided by the plugin -->
@@ -109,7 +108,7 @@
                     </dependency>
                 </dependencies>
                 <configuration>
-                    <imagesDir>./images</imagesDir>
+                    <imagesDir>./image</imagesDir>
                     <preserveDirectories>false</preserveDirectories>
                     <requires>
                         <require>asciidoctor-diagram</require>

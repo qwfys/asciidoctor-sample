@@ -8,7 +8,7 @@
 
 == 概述
 
-[plantuml, mindmap, png]
+[plantuml, ./image/007/mindmap, png]
 ....
 @startmindmap
 * Debian
@@ -30,7 +30,7 @@
 
 qqqq
 
-[plantuml, diagram-classes, png]
+[plantuml, ./image/007/diagram-classes, png]
 ....
 @startuml
 class BlockProcessor

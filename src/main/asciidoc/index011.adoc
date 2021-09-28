@@ -1,4 +1,4 @@
-[plantuml, mindmap01, png]
+[plantuml, ./image/011/mindmap01, png]
 ....
 @startmindmap
 * 红康云医馆平台

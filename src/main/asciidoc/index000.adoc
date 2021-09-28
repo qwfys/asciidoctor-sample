@@ -1,6 +1,6 @@
 == 概述
 
-[plantuml, mindmap00, png]
+[plantuml, ./image/000/mindmap00, png]
 ....
 @startmindmap
 * 红康云医馆平台
@@ -15,7 +15,7 @@ kkkkkkkkkk
 
 kkkkkkkkkk
 
-[plantuml, mindmap02, png]
+[plantuml, ./image/000/mindmap02, png]
 ....
 @startmindmap
 * 红康云医馆平台
@@ -147,7 +147,7 @@ kkkkkkkkkk
 
 kkkkkkkkkk
 
-[plantuml, mindmap03, png]
+[plantuml, ./image/000/mindmap03, png]
 ....
 @startmindmap
 * 红康云医馆平台

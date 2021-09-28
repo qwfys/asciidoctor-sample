@@ -1,1 +1,45 @@
 == 概述
+
+[plantuml, ./image/000/mindmap00, png]
+....
+@startmindmap
+* 红康云医馆平台
+** 红康医馆企业端
+** 红康医馆运营端
+@endmindmap
+....
+
+
+[seqdiag, ./image/001/seqdiag00, png]
+....
+seqdiag {
+  browser  -> webserver [label = "GET /index.html"];
+  browser <-- webserver;
+  browser  -> webserver [label = "POST /blog/comment"];
+  webserver  -> database [label = "INSERT comment"];
+  webserver <-- database;
+  browser <-- webserver;
+}
+....
+
+[seqdiag]
+....
+seqdiag {
+  // normal edge and doted edge
+  A -> B [label = "normal edge"];
+  B --> C [label = "dotted edge"];
+
+  B <-- C [label = "return dotted edge"];
+  A <- B [label = "return edge"];
+
+  // asynchronus edge
+  A ->> B [label = "asynchronus edge"];
+  B -->> C [label = "asynchronus dotted edge"];
+
+  B <<-- C [label = "return asynchronus doted edge"];
+  A <<- B [label = "return asynchronus edge"];
+
+  // self referenced edge
+  A -> A [label = "self reference edge"];
+}
+....

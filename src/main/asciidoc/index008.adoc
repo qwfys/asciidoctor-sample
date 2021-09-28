@@ -3,7 +3,7 @@
 
 == 库房业务
 
-[plantuml,usecase,png]
+[plantuml,./image/008/usecase,png]
 ....
 @startuml
 (First usecase)
